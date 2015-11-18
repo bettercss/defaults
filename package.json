@@ -1,0 +1,29 @@
+{
+  "name": "bettercss-defaults",
+  "version": "0.0.1",
+  "description": "Default variables for BetterCSS",
+  "main": "index.js",
+  "keywords": [
+    "bettercss",
+    "postcss",
+    "css",
+    "libraries",
+    "defaults"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bettercss/defaults.git"
+  },
+  "author": "Mike Bailey <mike@bettercss.io>",
+  "maintainers": [
+    {
+      "name": "Mike Bailey",
+      "email": "mike@bettercss.io"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/bettercss/defaults/issues"
+  },
+  "homepage": "https://github.com/bettercss/defaults"
+}
