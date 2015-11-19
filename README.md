@@ -1,3 +1,3 @@
 # Defaults
 
-Default global variables for BetterCSS.
+Default custom property variables and custom media queries for BetterCSS.
