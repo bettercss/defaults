@@ -1,6 +1,3 @@
-/**
- * Defaults
- */
 
 @custom-media --breakpoint-tiny screen and (min-width: 30em);
 @custom-media --breakpoint-small screen and (min-width: 48em);
@@ -9,17 +6,19 @@
 @custom-media --breakpoint-huge screen and (min-width: 90em);
 
 :root {
-	--base-spacing-unit: 24px;
-	--base-vertical-rhyme: var(--base-spacing-unit);
-
+	--spacing-unit: 20px;
+	--vertical-rhyme: var(--spacing-unit);
 	--font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	--font-size: 100%;
+	--line-height: 1.5;
+	--color-background: #fff;
+	--color: #000;
+	--color-link:  #1a0;
 	--h1: 2rem;
 	--h2: 1.5rem;
 	--h3: 1.25rem;
 	--h4: 1rem;
 	--h5: .875rem;
 	--h6: .75rem;
-	--line-height: 1.5;
-
 	--base-gutter: 24px;
 }
