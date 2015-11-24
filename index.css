@@ -1,24 +1,25 @@
 
-@custom-media --breakpoint-tiny screen and (min-width: 30em);
-@custom-media --breakpoint-small screen and (min-width: 48em);
-@custom-media --breakpoint-medium screen and (min-width: 64em);
-@custom-media --breakpoint-large screen and (min-width: 80em);
-@custom-media --breakpoint-huge screen and (min-width: 90em);
+@custom-media --breakpoint-medium (min-width: 52em);
+@custom-media --breakpoint-large (min-width: 64em);
 
 :root {
-	--spacing-unit: 20px;
-	--vertical-rhyme: var(--spacing-unit);
+	--spacing-unit: 18px;
+	--spacing-unit-tiny: calc(var(--spacing-unit) / 3);
+	--spacing-unit-small: calc(var(--spacing-unit) / 2);
+	--spacing-unit-large: calc(var(--spacing-unit) * 2);
+	--spacing-unit-huge: calc(var(--spacing-unit) * 3);
+
 	--font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	--font-size: 100%;
 	--line-height: 1.5;
-	--color-background: #fff;
-	--color: #000;
-	--color-link:  #1a0;
 	--h1: 2rem;
 	--h2: 1.5rem;
 	--h3: 1.25rem;
 	--h4: 1rem;
 	--h5: .875rem;
 	--h6: .75rem;
-	--base-gutter: 24px;
+
+	--color-background: #fff;
+	--color: #000;
+	--color-link: #1a0dab;
 }
