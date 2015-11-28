@@ -3,7 +3,7 @@
 @custom-media --breakpoint-large (min-width: 64em);
 
 :root {
-	--spacing-unit: 18px;
+	--spacing-unit: 1.5rem;
 	--spacing-unit-tiny: calc(var(--spacing-unit) / 3);
 	--spacing-unit-small: calc(var(--spacing-unit) / 2);
 	--spacing-unit-large: calc(var(--spacing-unit) * 2);
